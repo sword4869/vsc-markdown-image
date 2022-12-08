@@ -11,7 +11,7 @@
 
 打包:
 ```bash
-npm i vsce -g
+npm i vsce -S
 vsce package
 ```
 
