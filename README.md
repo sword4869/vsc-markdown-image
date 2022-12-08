@@ -9,6 +9,12 @@
 我们保留了`./`
 
 
+打包:
+```bash
+npm i vsce -g
+vsce package
+```
+
 ---
 English Readme / [简体中文说明](README.zh-cn.md) / [繁體中文說明](README.zh-tw.md)
 
