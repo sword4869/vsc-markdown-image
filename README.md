@@ -1,3 +1,15 @@
+
+与原版的区别:
+
+```
+![](./asserts/icon.png)
+
+![](asserts/icon.png)
+```
+我们保留了`./`
+
+
+---
 English Readme / [简体中文说明](README.zh-cn.md) / [繁體中文說明](README.zh-tw.md)
 
 # Markdown Image

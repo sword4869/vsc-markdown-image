@@ -1,5 +1,5 @@
 {
-  "name": "markdown-image",
+  "name": "markdown-image-sword",
   "displayName": "Markdown Image",
   "description": "Easy to insert a image to markdown",
   "version": "1.1.23",
@@ -26,7 +26,7 @@
     "onCommand:markdown-image.config",
     "onCommand:markdown-image.paste-rich-text"
   ],
-  "repository": "https://github.com/imlinhanchao/vsc-markdown-image",
+  "repository": "https://github.com/sword4869/vsc-markdown-image",
   "main": "./out/extension",
   "contributes": {
     "commands": [
