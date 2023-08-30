@@ -1,3 +1,22 @@
+2023/08/30 不需要这个扩展了。
+
+用vscode自带的图片粘贴，可以做到此插件不能做到的“ctrl+z”就能删除图片，而不用像此插件一样还得手动去图片路径下删除。
+
+虽然在根目录下不是相对路径`![](images/icon.png)`，在非根目录下是相对路径`![](../images/icon.png)`，但无所谓了。
+
+```bash
+editor.pasteAs.enabled
+markdown.editor.filePaste.enabled
+markdown.editor.filePaste.copyIntoWorkspace
+```
+
+```
+"markdown.experimental.copyFiles.destination": {
+    "**/*": "${documentWorkspaceFolder}/images/"
+}
+```
+
+----
 
 与原版的区别:
 
